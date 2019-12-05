@@ -6,6 +6,26 @@ Using this library you can make you recyclerview more effective for better user 
 
 you can simply add these lines to your project level gradle file
 
+# Installation
+To get a Git project into your build:
+
+**Step 1.** Add the JitPack repository to your build file
+```
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+
+```
+**Step 2.** Add the dependency
+```
+dependencies {
+	        implementation 'com.github.harshitgaur20031995:animated-recyclerview-master:Tag'
+	}
+```
+
 ### Prerequisites
 
 What things you need to install the software and how to install them
